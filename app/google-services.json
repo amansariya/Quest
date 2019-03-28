@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "9167343604",
+    "firebase_url": "https://trippify-e3149.firebaseio.com",
+    "project_id": "trippify-e3149",
+    "storage_bucket": "trippify-e3149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9167343604:android:7549a91c492ad315",
+        "android_client_info": {
+          "package_name": "com.example.trippify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9167343604-lh78ra9qjketl85v27necv9u2scves16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDntYmPg8ZHIAu0VEqPyLIk301mYsPTiVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

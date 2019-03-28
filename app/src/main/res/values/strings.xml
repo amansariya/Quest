@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quest</string>
+    <string name="new_here">New Here?</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_places_key">AIzaSyBAcnka0RMwAUwJW7TLLfUgoeqs2ehoqg4</string>
+</resources>

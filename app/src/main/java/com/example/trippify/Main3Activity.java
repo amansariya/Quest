@@ -122,12 +122,6 @@ public class Main3Activity extends AppCompatActivity implements LocationListener
     }
 
 
-    public void weaWeather(View v)
-    {
-        Intent int1 = new Intent("com.example.trippify.Weather2");
-        startActivity(int1);
-    }
-
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
@@ -144,10 +138,6 @@ public class Main3Activity extends AppCompatActivity implements LocationListener
 
     }
 
-    public void checkWeather(View v){
-        Intent int1 =new Intent("com.example.trippify.Main4Activity");
-        startActivity(int1);
-    }
 
     public void viewAmenities(View v){
         Intent int1 =new Intent("com.example.trippify.MapsActivity");
@@ -155,14 +145,14 @@ public class Main3Activity extends AppCompatActivity implements LocationListener
 }
 
     public void checkBudget(View v){
-        Intent int1 =new Intent("com.example.trippify.Main5Activity");
-        startActivity(int1);
+        Intent int2 =new Intent("com.example.trippify.Main5Activity");
+        startActivity(int2);
     }
 
     public void blogs(View v)
     {
-        Intent int1 = new Intent("com.example.trippify.Blogs");
-        startActivity(int1);
+        Intent int3 = new Intent("com.example.trippify.Blogs");
+        startActivity(int3);
     }
 }
 

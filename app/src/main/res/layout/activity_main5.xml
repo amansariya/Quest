@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main5Activity"
-    android:background="@color/darkgrey">
+    android:background="@drawable/dashbtn">
 
     <TextView
         android:id="@+id/textView4"
@@ -14,10 +14,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="57dp"
+        android:layout_marginStart="89dp"
         android:layout_marginTop="37dp"
+        android:fontFamily="@font/cabin_semibold"
+        android:gravity="center"
         android:text="Expenses"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textColor="@android:color/black"
         android:textSize="60sp" />
 
@@ -29,6 +31,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="335dp"
+        android:fontFamily="@font/cabin_semibold"
         android:text="Transport"
         android:textAlignment="center"
         android:textColor="@android:color/black"
@@ -64,6 +67,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="250dp"
+        android:fontFamily="@font/cabin_semibold"
         android:text="Shopping"
         android:textAlignment="center"
         android:textColor="@android:color/black"
@@ -88,6 +92,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="169dp"
+        android:fontFamily="@font/cabin_semibold"
         android:text="Food"
         android:textAlignment="center"
         android:textColor="@android:color/black"

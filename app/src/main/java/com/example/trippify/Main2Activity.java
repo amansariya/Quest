@@ -94,7 +94,7 @@ public class Main2Activity extends AppCompatActivity {
                             {
                                 FirebaseAuthException e = (FirebaseAuthException )task.getException();
                                 Toast.makeText(Main2Activity.this, "Failed Registration: "+e.getMessage(), Toast.LENGTH_SHORT).show();
-                                //Toast.makeText(Main2Activity.this, "Registration Failed", Toast.LENGTH_SHORT).show();
+
                             }
                         }
                     });
@@ -111,9 +111,9 @@ public class Main2Activity extends AppCompatActivity {
         String phone=userphoneno.getText().toString();
         String password=userpassword.getText().toString();
 
-        if(name.isEmpty()||email.isEmpty()||phone.isEmpty()||password.isEmpty())
+        if(name.isEmpty()||email.isEmpty()||phone.isEmpty()||password.isEmpty()||(phone.length()>10)||(phone.length()<10))
         {
-            Toast.makeText(this,"Please enter all details",Toast.LENGTH_SHORT ).show();
+            Toast.makeText(this,"Please enter all details correctly",Toast.LENGTH_SHORT ).show();
         }else
         {
             result=true;
